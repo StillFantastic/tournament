@@ -1,4 +1,3 @@
-
 # Tournament 
 
 This is one of the projects in udacity full stack web development nanodegree.
@@ -17,7 +16,13 @@ git clone https://github.com/StillFantastic/tournament.git
 
 ## Running
 
-You need to write <code>SQL</code> code in tournament.sql to create tables. You can use the following command to test your program.
+First off, import tournament.sql into your database by running the following command:
+```
+$ psql
+=# \i tournament.sql
+```
+And you can to write <code>SQL</code> code in tournament.sql to configure database.
+You can use the following command to test your program.
 
 ```
 python tournament_test.py
